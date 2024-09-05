@@ -8,7 +8,7 @@ const TotalSkor = () => {
       <div className='col-lg-6 g-5'>
         <div className='border border-gray rounded-4 p-5 d-flex flex-column justify-content-center align-items-center'>
           <img src="/assets/img/skor-img.png" className='skor-img' alt="" />
-          <div className='fs-5 fw-medium'>
+          <div className='fs-5 fw-medium d-flex flex-wrap justify-content-center justify-content-sm-start'>
             <span className='me-4'>*Bank Account Used For Scoring*</span>
             <span>Based On Given Details
               <FaExclamationCircle className='ms-3 mb-1' fill='red'/>
